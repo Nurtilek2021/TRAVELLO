@@ -1,0 +1,361 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .curated-img{
+        height: 300px;
+        width: 417px;
+        border-radius: 20px;
+    }
+
+    .curated-text-item{
+        display: block;
+    }
+    .numbers{
+        margin: 20px 10px 0 15px;
+    }
+    .star{
+        margin: 16px 0 10px -75px;
+    }
+    .flash-img{
+        height:190px;
+        width: 300px;
+        border-radius: 8px;
+    }
+    .flash-icons{
+        display: flex;
+        list-style: none;
+        padding: 15px 0 15px 20px;
+        color: #7A7A7A;
+    }
+    .flash-zanzibar{
+        font-size: 17px;
+        padding: 0 0 15px 20px;
+    }
+    .flash-numbers{
+        color: #009D98;
+        font-size: 24px;
+        margin: 15px 0 99px 20px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .contact {
+        padding: 10px 0 85px 50px;
+        background: linear-gradient(rgba(8, 60, 76, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact/Mask Group.png");
+    }
+
+    .contact-input-text {
+        height: 46px;
+        width: 450px;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 50px rgba(19, 15, 64, 0.1);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin: 5px 0 10px 0;
+        transition: 1s;
+    }
+    .contact-input-text:hover{
+        background-color: #FFFFFF;
+        transition: 1s;
+    }
+    .contact-input-email {
+        height: 46px;
+        width: 450px;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 50px rgba(19, 15, 64, 0.1);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin: 5px 0 10px 0;
+        transition: 1s;
+    }
+    .contact-input-email:hover{
+        background-color: #FFFFFF;
+        transition: 1s;
+    }
+    .contact-input-comments {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 50px rgba(19, 15, 64, 0.1);
+        border-radius: 5px;
+        height: 100px;
+        width: 450px;
+        outline: none;
+        border: none;
+        margin: 0 0 10px 0;
+        transition: 1s;
+    }
+    .contact-input-comments:hover{
+        background-color: #FFFFFF;
+        transition: 1s;
+    }
+    .contact-btn {
+        height: 40px;
+        width: 90px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        background: #009D98;
+        box-shadow: 0 15px 25px rgba(0, 157, 152, 0.25);
+        border-radius: 7px;
+        transition: 1s;
+    }
+    .contact-btn:hover {
+        background-color: #9d2f0a;
+        transition: 1s;
+        box-shadow: 0 15px 25px rgba(0, 157, 152, 0.25);
+    }
+    .contact-title{
+        padding: 0 0 10px 0;
+        color: #FFFFFF;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .ul-contact{
+        padding: 0 0 30px 0;
+        list-style: none;
+    }
+    .contact-item{
+        padding: 0 210px 0;
+
+    }
+    .a-contact {
+        color: white;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .hero {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        height: 650px;
+        background: url("../images/TRAVELLO/Vector 5.svg") no-repeat top 0 left 413px,
+        url("../images/TRAVELLO/Vector 6.svg") no-repeat top 0 left 413px,
+        url("../images/TRAVELLO/Mask Group 1 1.png") no-repeat top 100% left 100%;
+
+    }
+    .discover-box {
+        display: flex;
+        justify-content: center;
+    }
+    .discover-block {
+        width: 896px;
+        height: 152px;
+        background: #FFFFFF;
+        padding: 51px 49px;
+        box-shadow: 0 20px 100px rgba(24, 129, 130, 0.1);
+        border-radius: 50px 5px;
+        position: relative;
+
+    }
+    .video-item-1 {
+        padding: 25px 210px;
+        position: relative;
+    }
+    .icon{
+        padding: 160px 200px 150px 85px;
+    }
+    .footer {
+        background: no-repeat url("../images/footer/Vector (1).png"), no-repeat url("../images/footer/Vector.png") padding-box 0 105px, no-repeat url("../images/footer/Vector (2).png") padding-box 611px 203px;
+        height: 821px;
+        color: #FFFFFF;
+        padding: 506px 191px 0 90px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+.discover-box{
+    display: flex;
+   padding: 0 450px 0 85px;
+
+}
+
+    .discover-input {
+        border-radius: 5px;
+        height: 50px;
+        width: 200px;
+        border: 1px solid #E3E3E3;
+        padding: 14px 20px;
+        margin: 0 53px 15px 0;
+        display: flex;
+    }
+    .discover-block {
+        width: 896px;
+        height: 152px;
+        background: #FFFFFF;
+        padding: 20px 49px;
+        box-shadow: 0 20px 100px rgba(24, 129, 130, 0.1);
+        border-radius: 50px 5px;
+        position: relative;
+    }
+    .star{
+        width: 120px;
+        height: 20px;
+        margin: 5px 0 0 -35px;
+    }
+    .curated-img{
+        height: 230px;
+        width: 417px;
+        border-radius: 20px;
+    }
+    .flash-img{
+        height:140px;
+        width: 300px;
+        border-radius: 8px;
+    }
+    .flash-zanzibar{
+        font-size: 12px;
+        padding: 0 0 8px 15px;
+    }
+    .flash-icons{
+         display: flex;
+         list-style: none;
+         padding: 12px 0 8px 15px;
+         color: #7A7A7A;
+     }
+    .flash-numbers{
+        color: #009D98;
+        font-size: 20px;
+        margin: 8px 0 99px 15px;
+    }
+    .context {
+        font-size: 13px;
+        color: #7A7A7A;
+        padding: 0 0 0 15px;
+    }
+    .contact-item {
+        padding: 0 110px 0;
+    }
+    .col-2media{
+        width: 66%;
+    }
+    .icon-icons{
+        margin: 0 0 30px 0;
+    }
+    .icon {
+        padding: 60px 200px 150px 100px;
+    }
+    .footer {
+        background: no-repeat url("../images/footer/Vector (1).png"), no-repeat url("../images/footer/Vector.png") padding-box 0 105px, no-repeat url("../images/footer/Vector (2).png") padding-box 611px 203px;
+        height: 821px;
+        color: #FFFFFF;
+        padding: 430px 191px 0 110px;
+    }
+    .col-4media{
+        width: 100%;
+        padding: 0 145px;
+    }
+    .footer-item{
+        margin: 0 260px 50px 0;
+    }
+    .footer-text-2 {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 10px 0 0 80px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .video-play {
+        padding: 129px 95px;
+    }
+    .video-item-1{
+        padding: 70px 165px;
+    }
+    .discover-box{
+        display: flex;
+        padding: 0 460px 0 76px;
+    }
+
+    .discover-input {
+        border-radius: 5px;
+        height: 50px;
+        width: 200px;
+        border: 1px solid #E3E3E3;
+        padding: 14px 20px;
+        margin: 0 53px 15px 0;
+        display: flex;
+    }
+    .discover-block {
+        width: 800px;
+        height: 152px;
+        background: #FFFFFF;
+        padding: 20px 49px;
+        box-shadow: 0 20px 100px rgba(24, 129, 130, 0.1);
+        border-radius: 50px 5px;
+        position: relative;
+    }
+    .star{
+        width: 120px;
+        height: 20px;
+        margin: 5px 0 0 -20px;
+    }
+    .numbers{
+        margin: 20px 10px 0 0;
+    }
+    .curated-img{
+        height: 230px;
+        width: 417px;
+        border-radius: 20px;
+    }
+    .flash-img{
+        height:130px;
+        width: 300px;
+        border-radius: 8px;
+    }
+    .flash-zanzibar{
+        font-size: 11px;
+        padding: 0 0 8px 15px;
+    }
+    .flash-icons{
+        display: flex;
+        list-style: none;
+        padding: 12px 0 8px 15px;
+        color: #7A7A7A;
+    }
+    .flash-numbers{
+        color: #009D98;
+        font-size: 20px;
+        margin: 8px 0 99px 15px;
+    }
+    .context {
+        font-size: 11px;
+        color: #7A7A7A;
+        padding: 0 0 0 15px;
+    }
+    .contact-item {
+        padding: 0 110px 0;
+    }
+    .col-2media{
+        width: 66%;
+    }
+    .icon-icons{
+        margin: 0 0 30px 0;
+    }
+    .icon {
+        padding: 60px 200px 150px 100px;
+    }
+    .footer {
+        background: no-repeat url("../images/footer/Vector (1).png"), no-repeat url("../images/footer/Vector.png") padding-box 0 105px, no-repeat url("../images/footer/Vector (2).png") padding-box 611px 203px;
+        height: 821px;
+        color: #FFFFFF;
+        padding: 430px 191px 0 110px;
+    }
+    .col-4media{
+        width: 100%;
+        padding: 0 145px;
+    }
+    .footer-item{
+        margin: 0 260px 50px 0;
+    }
+    .footer-text-2 {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 10px 0 0 80px;
+    }
+}
